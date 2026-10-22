@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="58" fill="#1e3a5f"/>
+  <circle cx="60" cy="60" r="52" fill="none" stroke="#c5d4e8" stroke-width="2"/>
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#c5d4e8" stroke-width="0.8"/>
+  <text x="60" y="56" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff" font-family="system-ui, sans-serif">CSHE</text>
+  <text x="60" y="76" text-anchor="middle" font-size="7.5" fill="#c5d4e8" font-family="system-ui, sans-serif">Household Expectations</text>
+</svg>

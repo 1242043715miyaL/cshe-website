@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - CSHE</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact" data-sidebar="contact" data-sidebar-active="contact.html"
+      data-crumb="Home@index.html|Contact Us">
+  <div class="page-shell">
+    <div id="site-header"></div>
+    <div class="inner-banner"><div class="crumb" id="crumb"></div></div>
+    <div class="inner-layout">
+      <aside class="sidebar" id="sidebar"></aside>
+      <main class="article">
+        <h2 id="address">Contact Address</h2>
+        <p>China Survey of Household Expectations<br>
+        School of Economics<br>
+        5 Yiheyuan Road<br>
+        Beijing 100871, China</p>
+        <p>Email: cshe-data@example.edu<br>
+        Phone: +86 10 0000 0000</p>
+
+        <h2 id="access">Request Access</h2>
+        <p>Please complete the form to request permission to use CSHE data. Approved users will receive download instructions by email.</p>
+        <form class="form-grid" id="access-form">
+          <label>Applicant name
+            <input type="text" name="applicant_name" required>
+          </label>
+          <label>Applicant institution
+            <input type="text" name="institution" required>
+          </label>
+          <label>Applicant email
+            <input type="email" name="email" required>
+          </label>
+          <label>Intended use
+            <textarea name="purpose" rows="5" required></textarea>
+          </label>
+          <button class="btn" type="submit">Submit request</button>
+        </form>
+      </main>
+    </div>
+    <div id="site-footer"></div>
+  </div>
+  <script src="js/site.js?v=3"></script>
+</body>
+</html>
